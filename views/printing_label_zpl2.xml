@@ -144,7 +144,7 @@
                                         attrs="{'invisible': ['|', ('data_autofill', '=', True), ('component_type', 'in', ('rectangle', 'diagonal', 'circle'))]}"
                                         string="Data"
                                     >
-                                        <field
+                                        <field colspan="2"
                                             name="data"
                                             widget="ace"
                                             options="{'mode': 'python'}"
